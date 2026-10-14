@@ -1,0 +1,67 @@
+# Source code and internal scripts (closed-source binary distribution)
+*.py
+*.spec
+*.bat
+*.ps1
+*.ico
+version_info.txt
+requirements*.txt
+CHANGELOG_ARIS.md
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyInstaller / Build outputs
+build/
+dist/
+*.manifest
+*.spec.bak
+*.exe
+*.zip
+
+# Audit run reports and telemetry outputs
+audit_report_*.html
+audit_gui_report.html
+audit_master_dashboard.html
+audit_output/
+audit_v3_output/
+audit_bot_output/
+audit_pro_v5/
+audit_screenshots/
+video_frames_*/
+*.log
+
+# Backups
+backups/
+*.bak
+*.backup
+
+# Virtual Environments
+.env
+.venv/
+venv/
+ENV/
+env/
+
+# IDE / Editor configuration
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# Certificates and keys
+*.pem
+*.key
+*.pfx
+*.p12
+*.cer
+*.crt
